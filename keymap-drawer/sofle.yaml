@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DELETE
+  - BACKSPACE
   - TAB
   - Q
   - W
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - '['
   - {t: ESCAPE, h: LCTRL}
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - RETURN
   - LSHFT
   - Z
   - X
@@ -58,8 +58,8 @@ layers:
   - lower
   - raise
   - SPACE
-  - RETURN
-  - LALT
+  - RCTRL
+  - ''''
   - RGUI
   lower:
   - {t: ▽, type: trans}
@@ -142,8 +142,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - {t: ▽, type: trans}
-  - UP
+  - PLAY PAUSE
+  - STOP
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
@@ -152,11 +152,11 @@ layers:
   - Meh+S
   - Meh+D
   - Meh+F
-  - CLCK
+  - Meh+G
   - LEFT ARROW
-  - RIGHT ARROW
-  - UP ARROW
   - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - DEL
   - BSPC
   - {t: ▽, type: trans}
