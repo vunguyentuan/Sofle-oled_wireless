@@ -1,7 +1,66 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, CAPSLOCK, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+  default:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DELETE
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - {t: ESCAPE, h: LCTRL}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - ''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHFT
+  - LGUI
+  - LALT
+  - LCTRL
+  - LGUI
+  - lower
+  - raise
+  - SPACE
+  - RETURN
+  - LALT
+  - RGUI
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -56,8 +115,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,15 +148,15 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
+  - Meh+A
+  - Meh+S
+  - Meh+D
+  - Meh+F
   - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
+  - LEFT ARROW
+  - RIGHT ARROW
+  - UP ARROW
+  - DOWN ARROW
   - DEL
   - BSPC
   - {t: ▽, type: trans}
@@ -119,8 +178,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,10 +237,10 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
   - ''
   - {type: held}
+  - {type: held}
+  - ''
   - ''
   - ''
   - ''
