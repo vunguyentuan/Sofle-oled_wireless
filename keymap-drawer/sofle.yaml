@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default:
-  - ESC
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -53,48 +53,48 @@ layers:
   - RSHFT
   - LGUI
   - LALT
-  - LCTRL
+  - LEFT SHIFT
   - LGUI
   - lower
   - raise
   - SPACE
-  - RCTRL
+  - RIGHT SHIFT
   - ''''
   - RGUI
   lower:
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - '"'
+  - ''''
+  - _
+  - '-'
+  - '{'
+  - '}'
   - '9'
   - '0'
-  - F12
+  - \
   - {t: ▽, type: trans}
   - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
+  - <
+  - '>'
+  - '='
+  - \
+  - +
+  - '['
+  - ']'
   - (
   - )
   - '|'
@@ -123,12 +123,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -136,11 +130,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
-  - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Hyper+Q
+  - Hyper+W
+  - Hyper+E
+  - Hyper+R
+  - Hyper+T
   - PG UP
   - PLAY PAUSE
   - STOP
@@ -148,11 +148,11 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Meh+A
-  - Meh+S
-  - Meh+D
-  - Meh+F
-  - Meh+G
+  - Hyper+A
+  - Hyper+S
+  - Hyper+D
+  - Hyper+F
+  - Hyper+G
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
@@ -160,11 +160,11 @@ layers:
   - DEL
   - BSPC
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
+  - Hyper+Z
+  - Hyper+X
+  - Hyper+C
+  - Hyper+V
+  - Hyper+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
